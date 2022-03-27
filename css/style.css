@@ -1057,7 +1057,7 @@ body.lock {
 }
 
 .porten {
-  background: url("../img/porten/full.jpg") center 124px/cover no-repeat fixed;
+  background: url("../img/porten/full.webp") center 124px/cover no-repeat fixed;
   min-height: calc(100vh - 124px);
   position: relative;
 }
@@ -1074,7 +1074,7 @@ body.lock {
 }
 @media (max-width: 426px) {
   .porten {
-    background: url("../img/porten/full.jpg") center/cover no-repeat;
+    background: url("../img/porten/full.webp") center/cover no-repeat;
   }
 }
 @media (max-width: 426px) {
@@ -1240,7 +1240,7 @@ body.lock {
           flex: 0 1 54.2%;
 }
 .season__right {
-  background: url("../img/porten/zone.jpg") no-repeat;
+  background: url("../img/porten/zone.webp") no-repeat;
   background-position: center;
   background-size: cover;
   -webkit-box-flex: 0;
@@ -1452,7 +1452,7 @@ body.lock {
 .collection__image {
   position: relative;
   height: 100%;
-  background: url("../img/porten/men.jpg") center/cover no-repeat;
+  background: url("../img/porten/men.webp") center/cover no-repeat;
 }
 .collection__image::before {
   content: "";
@@ -1637,7 +1637,7 @@ body.lock {
 }
 
 .info {
-  background: url("../img/porten/footer.jpg") center/cover no-repeat;
+  background: url("../img/porten/footer.webp") center/cover no-repeat;
   position: relative;
 }
 .info::before {

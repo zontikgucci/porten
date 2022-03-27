@@ -488,7 +488,7 @@ body {
 }
 // porten ==================================================================
 .porten {
-	background: url("../img/porten/full.jpg") center 124px / cover no-repeat fixed;
+	background: url("../img/porten/full.webp") center 124px / cover no-repeat fixed;
 	min-height: calc(100vh - 124px);
 	position: relative;
 	&::before {
@@ -503,7 +503,7 @@ body {
 		background: $image_shadow;
 	}
 	@media (max-width: 426px) {
-		background: url("../img/porten/full.jpg") center / cover no-repeat;
+		background: url("../img/porten/full.webp") center / cover no-repeat;
 	}
 	@media (max-width: 426px) {
 		min-height: calc(100vh - 104px);
@@ -631,7 +631,7 @@ body {
 
 	//другой блок
 	&__right {
-		background: url("../img/porten/zone.jpg") no-repeat;
+		background: url("../img/porten/zone.webp") no-repeat;
 		background-position: center;
 		background-size: cover;
 		flex: 0 1 45.8%;
@@ -796,7 +796,7 @@ body {
 	&__image {
 		position: relative;
 		height: 100%;
-		background: url("../img/porten/men.jpg") center / cover no-repeat;
+		background: url("../img/porten/men.webp") center / cover no-repeat;
 		&::before {
 			content: "";
 			position: absolute;
@@ -946,7 +946,7 @@ body {
 }
 // info =======================================
 .info {
-	background: url("../img/porten/footer.jpg") center / cover no-repeat;
+	background: url("../img/porten/footer.webp") center / cover no-repeat;
 	position: relative;
 	&::before {
 		content: "";
