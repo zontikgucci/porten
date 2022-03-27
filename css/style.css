@@ -490,6 +490,18 @@ textarea {
   font-weight: 700;
   src: url("../../font/PostNoBold.ttf") format("truetype");
 }
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #969696;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
 a {
   outline: none !important;
 }

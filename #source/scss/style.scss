@@ -27,8 +27,17 @@ $image_shadow: rgb(15, 15, 15, 0.5);
 // ! height
 $height__header_bottom: 80px;
 
-// mixin =============================================
-// шаблон ============================================
+// scroll
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #969696;
+}
+*::-webkit-scrollbar-thumb {
+	background: #000000;
+}
 a {
 	outline: none !important;
 }
