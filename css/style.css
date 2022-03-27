@@ -448,7 +448,7 @@ textarea {
 
 @font-face {
   font-family: "icons";
-  src: url("../../font/fonts-image/icons.ttf?74g2ei") format("truetype"), url("../../font/fonts-image/icons.woff?74g2ei") format("woff"), url("../../font/fonts-image/icons.svg?74g2ei#icons") format("svg");
+  src: url("../font/fonts-image/icons.ttf?74g2ei") format("truetype"), url("../font/fonts-image/icons.woff?74g2ei") format("woff"), url("../font/fonts-image/icons.svg?74g2ei#icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -488,7 +488,7 @@ textarea {
   font-family: "Post";
   font-style: normal;
   font-weight: 700;
-  src: url("../../font/PostNoBold.ttf") format("truetype");
+  src: url("../font/PostNoBold.ttf") format("truetype");
 }
 *::-webkit-scrollbar {
   width: 8px;
